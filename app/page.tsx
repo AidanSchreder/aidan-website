@@ -10,7 +10,10 @@ export default function Home() {
             Aidan Schreder
           </h1>
           <p className="max-w-md text-lg leading-8 text-zinc-600 dark:text-zinc-400">
-            Basic online portfolio
+            Online portfolio
+          </p>
+          <p className="max-w-md text-lg leading-8 text-zinc-600 dark:text-zinc-400">
+            This is a temporary page. Check back soon to view an awesome website.
           </p>
         </div>
         <div className="flex flex-col gap-4 text-base font-medium sm:flex-row">
