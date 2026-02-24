@@ -40,7 +40,7 @@ export const products = [
     content: (
       <div>
         <p>
-          Team 854 is dubbed "The Iron Bears" and thus the logo I designed features
+          Team 854 is dubbed, The Iron Bears, and thus the logo I designed features
           a robotic bear in the schools bright orange. I also designed a sweater graphic,
           T-shirt gaphic and competition pins. Above I have also include several sweater graphics
           that did not make the final cut.

@@ -1,5 +1,5 @@
 "use client";
-import { Blog } from "@/types/engineering";
+import { Blog } from "@/types/blog";
 import Image from "next/image";
 import React, { useState } from "react";
 import { Heading } from "./Heading";

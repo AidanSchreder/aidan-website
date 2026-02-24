@@ -11,15 +11,15 @@ export default function Home() {
     <Container>
       <Heading className="font-black"> Designer, Engineer and Creative</Heading>
       <Paragraph className="max-w-xl mt-4">
-        Hello and welcome! My name is Aidan, I'm a Systems Design Engineering student at the
+        Hello and welcome! My name is Aidan, I am a Systems Design Engineering student at the
         University of Waterloo, and a professional graphic designer. I love building and learning new things.
       </Paragraph>
       <Paragraph className="max-w-xl mt-4">
-        If you're looking for a {" "} <Highlight>professional logo or brand design</Highlight> send
-        me a note via the contact form and I'll get back to you with some ideas and a quote.
+        If you are looking for a {" "} <Highlight>professional logo or brand design</Highlight> send
+        me a note via the contact form and I will get back to you with some ideas and a quote.
       </Paragraph>
       <Paragraph className="max-w-xl mt-4">
-        If you're looking for an {" "} <Highlight>engineering intern</Highlight> starting in 
+        If you are looking for an {" "} <Highlight>engineering intern</Highlight> starting in 
         Fall 2025, check out my resume below and feel free to reach out.
       </Paragraph>
       <Heading
