@@ -1,15 +1,16 @@
 {
   "ExpandedNodes": [
     "",
+    "\\lib",
+    "\\public",
     "\\src",
     "\\src\\app",
-    "\\src\\app\\design",
-    "\\src\\app\\design\\[slug]",
     "\\src\\app\\engineering",
     "\\src\\app\\engineering\\Complete Portfolio",
-    "\\src\\constants",
+    "\\src\\app\\resume",
+    "\\src\\components",
     "\\src\\lib"
   ],
-  "SelectedNode": "\\src\\app\\engineering\\Complete Portfolio\\content.mdx",
+  "SelectedNode": "\\src\\constants\\timeline.tsx",
   "PreviewInSolutionExplorer": false
 }

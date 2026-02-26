@@ -5,15 +5,41 @@ import { Inter } from "next/font/google";
 import { twMerge } from "tailwind-merge";
 import { Footer } from "@/components/Footer";
 
+import Script from 'next/script'
+
+export default function RootLayout({ children }){
+    return (
+        <html lang="en">
+            <body>
+                {children}
+                
+                <Script
+                    src="https://www.googletagmanager.com/gtag/js?id=G-3RYJ5FDDWX"
+                    strategy="afterInteractive"
+                />
+
+                <Script id="google-analytics" strategy="afterInteractive">
+                    {'
+                        window.dataLayer = window.dataLayer || [];
+                        function gtag(){dataLayer.push(arguments);}
+                        gtag('js', new Date());
+                        gtag('config', 'G-3RYJ5FDDWX');
+                    '}
+                </Script>
+            </body>
+        </html>
+    )
+}
+
 const inter = Inter({
   subsets: ["latin"],
   weight: ["100", "200", "300", "400", "500", "600", "700", "800", "900"],
 });
 
 export const metadata: Metadata = {
-  title: "John Doe - Developer",
+  title: "Aidan Schreder - Developer",
   description:
-    "John Doe is a developer, writer and speaker. He is a digital nomad and travels around the world while working remotely.",
+    "",
 };
 
 export default function RootLayout({
