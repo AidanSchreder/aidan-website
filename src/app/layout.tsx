@@ -7,30 +7,6 @@ import { Footer } from "@/components/Footer";
 
 import Script from 'next/script'
 
-export default function RootLayout({ children }){
-    return (
-        <html lang="en">
-            <body>
-                {children}
-                
-                <Script
-                    src="https://www.googletagmanager.com/gtag/js?id=G-3RYJ5FDDWX"
-                    strategy="afterInteractive"
-                />
-
-                <Script id="google-analytics" strategy="afterInteractive">
-                    {'
-                        window.dataLayer = window.dataLayer || [];
-                        function gtag(){dataLayer.push(arguments);}
-                        gtag('js', new Date());
-                        gtag('config', 'G-3RYJ5FDDWX');
-                    '}
-                </Script>
-            </body>
-        </html>
-    )
-}
-
 const inter = Inter({
   subsets: ["latin"],
   weight: ["100", "200", "300", "400", "500", "600", "700", "800", "900"],
@@ -62,6 +38,21 @@ export default function RootLayout({
             <Footer />
           </div>
         </div>
+
+        <Script
+            src="https://www.googletagmanager.com/gtag/js?id=G-3RYJ5FDDWX"
+            strategy="afterInteractive"
+        />
+
+        <Script id="google-analytics" strategy="afterInteractive">
+            {'
+                window.dataLayer = window.dataLayer || [];
+                function gtag(){dataLayer.push(arguments);}
+                gtag('js', new Date());
+                gtag('config', 'G-3RYJ5FDDWX');
+            '}
+        </Script>
+
       </body>
     </html>
   );
